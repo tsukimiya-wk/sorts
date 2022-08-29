@@ -9,16 +9,3 @@ export function bubbleSort(array: Array<number>): void {
         }
     }
 }
-
-/**
- * 复杂度分析：
- *
- * 时间复杂度：
- *      for 循环：2个
- *
- * 空间复杂度：
- *      没有新空间的开辟
- *
- * 时间复杂度：O(n^2)
- * 空间复杂度：O(1)
- */

@@ -17,12 +17,6 @@
  *              pivotArr_2 = [2]
  * 7. 当数组仅剩一个元素时，返回该数组
  * 8. 將各个数组拼接起来
- *
- * 复杂度分析：
- *
- * 最好情况：只迭代一次，O(n)
- * 最坏情况：O(n!)
- * 平均时间复杂度：（n + n!)/2;
  */
 
 export function quickSortByConcat(array: Array<number>) {
